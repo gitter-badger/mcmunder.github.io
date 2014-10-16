@@ -6,11 +6,6 @@
   text-transform: uppercase;
 }
 
-.nav nav-pills{
-  background-color: red;
-}
-
-
 .nav li {
   display: inline;
 }
