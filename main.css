@@ -1,8 +1,8 @@
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 20px 15px;
   text-transform: uppercase;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .jumbotron {
-  background-image:url("http://tinyurl.com/nl4uk6z");
+  background-image: url("http://tinyurl.com/nl4uk6z");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
