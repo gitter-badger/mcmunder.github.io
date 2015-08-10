@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               matthiasmunder.de | the world clearly needs more blogs
 tagline:             'Content will follow soon'
 description:      'A short description will be put here'
-url:                    'http://matthiasmunder.de'
+url:                    'http://www.matthiasmunder.de'
 baseurl:             /
 paginate:            5
 
