@@ -1,34 +1,20 @@
-# Site settings
-title: matthiasmunder.de | Content will follow soon
-description: "A blog about stuff"
-url: "http://www.matthiasmunder.de"
-author:
-  name: "Matthias Munder"
-  email: "matthiasmunder@gmail.com"
-  url: "http://www.matthiasmunder.de"
+# General
+name: matthiasmunder.de
+description: "Minimalistic, friendly, responsive."
+url: http://www.matthiasmunder.de
 
-# Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 5
 permalink: /:title
-paginate: 8
-paginate_path: /page:num/
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Social share and comments.
+#disqus-id: yourusername
+twitter: matthiasmunder
+github: matthiasmunder
+#google: +yourusername
 
-# Custom variables
-version: "1.1.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+# RSS feed
+rss-feed-limit: 10
+rss-show-full: "no"
