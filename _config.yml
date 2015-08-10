@@ -1,34 +1,38 @@
-# Site settings
-title: matthiasmunder.de | Content will follow soon
-description: "A blog about stuff"
-url: "http://www.matthiasmunder.de"
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:                  matthiasmunder.de | Content will follow soon
+tagline:             'A blog about stuff'
+description:      'Content will follow soon'
+url:                    'http://matthiasmunder.de'
+baseurl:             /
+paginate:            7
+
+
+# About/contact
 author:
   name: "Matthias Munder"
   email: "matthiasmunder@gmail.com"
   url: "http://www.matthiasmunder.de"
+  
+# Custom vars
+version:             2.0
 
-# Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
+# Social Media
+github:				http://github.com/matthiasmunder
+twitter:			    http://twitter.com/matthiasmunder
+#disqus:            testnaringu
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Custom variables
-version: "1.1.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+# Theme Author (Please don't edit this line cause of MIT LICENSE rules)
+theme:
+  creator:			Rizky Ariestiyansyah
+  codename:			Naringu
+  link:             https://github.com/ariestiyansyah/naringu
