@@ -1,20 +1,22 @@
-# General
-name: matthiasmunder.de
-description: "Minimalistic, friendly, responsive."
-url: http://www.matthiasmunder.de
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-markdown: redcarpet
-highlighter: pygments
+# Setup
+title:               matthiasmunder.de | the world clearly needs more blogs
+tagline:             'Content will follow soon'
+description:      'A short description will be put here'
+url:                    'http://matthiasmunder.de'
+baseurl:             /
+paginate:            5
 
-paginate: 5
-permalink: /:title
+# About/contact
+author:
+  name:            'Matthias Munder'
+  url:                 'http://matthiasmunder.de'
+  email:             'matthiasmunder@gmail.com'
 
-# Social share and comments.
-#disqus-id: yourusername
-twitter: matthiasmunder
-github: matthiasmunder
-#google: +yourusername
-
-# RSS feed
-rss-feed-limit: 10
-rss-show-full: "no"
+# Custom vars
+version:             1.0.0
