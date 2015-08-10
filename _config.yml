@@ -1,28 +1,22 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:            matthiasmunder.de
-#tagline:          'A Jekyll theme'
+title:               matthiasmunder.de
+#tagline:             'tagline will be here'
 description:      'Short descriptions of why this blog exists goes here...'
 url:                    http://matthiasmunder.de
-baseurl:          /
-paginate:         5
+baseurl:             ''
+paginate:            5
 
-
+# About/contact
 author:
   name:              Matthias Munder
   url:                  http://matthiasmunder.de
   email:             matthiasmunder@gmail.com
 
-
 # Custom vars
-version:          2.1.0
-
-#github:
-  #repo:           https://github.com/poole/hyde
+version:             1.0.0
