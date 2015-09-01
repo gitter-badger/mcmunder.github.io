@@ -1,22 +1,29 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+###########
+# site.url, site.title
 
-# Setup
-title:               Matthias Christoph Munder
-#tagline:           'A Jekyll theme'
-description:  'Description goes here'
-url:                 http://matthiasmunder.de
-baseurl:             ''
-paginate:            5
+title: 'Jekyll Bootstrap Theme'
 
-# About/contact
-author:
-  name:             Matthias Munder
-  url:                  https://twitter.com/matthiasmunder
-  email:             matthiasmunder@gmail.com
+## note:
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: /bootstrap_starter
+url: localhost:4000
 
-# Custom vars
-version:             1.0.0
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
